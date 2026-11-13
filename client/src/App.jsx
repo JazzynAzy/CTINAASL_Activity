@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Components/pages/Home'
 import Header from './Components/navbar/Header'
+import Footer from './Components/pages/Footer'
 import Feature from './Components/pages/Feature'
 import About from './Components/pages/About'
 import Pricing from './Components/pages/Pricing'
@@ -19,6 +20,7 @@ function App() {
       <Route path='/pricing' element={<Pricing/>} />
       <Route path='/contact' element={<Contact/>} />
     </Routes>
+    <Footer />
    </Router>
   )
 }

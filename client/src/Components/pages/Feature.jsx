@@ -1,4 +1,6 @@
 import React from 'react'
+import featureMockup from '../../assets/images/feature-mockup.png'
+import '../styles/Feature.css'
 
 function Feature() {
   return (
@@ -66,14 +68,14 @@ function Feature() {
 
                     <div class="col-md-6 col-sm-6">
                          <div class="feature-image">
-                              <img src="images/feature-mockup.png" class="img-responsive" alt="Thin Laptop"/>                            
+                              <img src={featureMockup} class="img-responsive" alt="Thin Laptop"/>                            
                          </div>
                     </div>
 
                </div>
           </div>
      </section>
-    </>
+     </>
   )
 }
 
