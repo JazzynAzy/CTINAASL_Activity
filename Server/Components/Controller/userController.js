@@ -7,7 +7,7 @@ const userController = {
       const users = await User.find();
       response.status(200).json(users);
     } catch (error) {
-      console.log("Error retrieving users:", error); //server-side log
+      console.log("Error:", error); //server-side log
       response.status(500).json({
         message: "Error retrieving users",
         error: error.message,
